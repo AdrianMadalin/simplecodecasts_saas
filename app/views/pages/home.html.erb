@@ -2,3 +2,23 @@
     <h1>Welcome to ....</h1>
     <h3>First developer site</h3>
 </div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="well">
+            <h2 class="text-center">Basic memebership</h2>
+            <h4 class="text-center">Sign up for free and get basic acces to the comunity.</h4>
+            <br>
+            <%= link_to "Sign up with Basic", new_user_registration_path, class:"btn btn-primary btn-lg btn-block"%>
+        </div>
+        
+    </div>
+        <div class="col-md-6">
+            <div class="well">
+               <h2 class="text-center"> Pro memebership </h2>
+               <h4 class="text-center">Sign up for the pro account for $10/month and get acces to the comunity contact and information</h4>
+               <%= link_to "Sign up with Pro", new_user_registration_path, class:"btn btn-success btn-lg btn-block"%>
+            </div>
+    </div>
+    
+</div>
